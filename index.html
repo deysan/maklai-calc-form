@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maklai Calc Form</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+
+  <body>
+    <div class="form">
+      <h1>Maklai Calc Form</h1>
+      <p class="form-description">
+        Введіть два числа та виберіть оператор для розрахунку.
+      </p>
+      <form class="calc-form" name="calc-form">
+        <div class="form-group">
+          <p>
+            <label class="visually-hidden" for="number-1">Число 1</label>
+            <input
+              class="input-number"
+              id="number-1"
+              type="number"
+              name="number-1"
+              placeholder="1 число"
+              required
+            />
+          </p>
+          <p>
+            <select class="operator" name="operator" id="operator" required>
+              <option value="+">+</option>
+              <option value="-" selected="selected">-</option>
+              <option value="*">*</option>
+              <option value="/">/</option>
+            </select>
+          </p>
+          <p>
+            <label class="visually-hidden" for="number-1">Число 2</label>
+            <input
+              class="input-number"
+              id="number-2"
+              type="number"
+              name="number-2"
+              placeholder="2 число"
+              required
+            />
+          </p>
+        </div>
+        <p class="result">Результат</p>
+        <button class="button" type="submit">Розрахувати</button>
+      </form>
+      <button class="button button-reset" type="button">Очистити</button>
+    </div>
+    <script src="/script.js"></script>
+  </body>
+</html>
