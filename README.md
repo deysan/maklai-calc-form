@@ -4,5 +4,5 @@
 
 ### Результат - [Maklai Calc Form](https://deysan.github.io/maklai-calc-form/index.html)
 
-[Maklai Calc Form Preview](preview.png)
+<img alt="Maklai Calc Form Preview" src="https://raw.githubusercontent.com/deysan/maklai-calc-form/master/preview.png">
 Проста форма для математичного розрахунку двох чисел. Користувачу потрібно ввести два числа в спеціальні інпути без пробілів. Потрібно вибрати один із представлених операторів (за замовчуванням це "+"). Реалізована валідація та підсказки. Є окрама кнопка для очиження форми.
