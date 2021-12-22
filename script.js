@@ -83,7 +83,7 @@ function calc(num1, num2, operator) {
     case '/':
       return Math.round(num1 / num2);
     default:
-      return Math.round('Помилка');
+      return 'Помилка';
   }
 }
 
